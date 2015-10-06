@@ -10,7 +10,7 @@ class docker_toolbox(
     $version      = '1.8.2c',
 ) {
 
-    package { "Docker Toolbox":
+    package { "DockerToolbox-${version}.pkg":
         provider => 'pkgdmg',
         source   => "https://github.com/docker/toolbox/releases/download/v${version}/DockerToolbox-${version}.pkg",
     }
