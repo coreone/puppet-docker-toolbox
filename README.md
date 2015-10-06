@@ -1,6 +1,6 @@
 # Docker Toolbox Puppet Module for Boxen
 
-[![Build Status](https://travis-ci.org/coreone/puppet-docker-toolbox.png)](https://travis-ci.org/coreone/puppet-docker-toolbox)
+[![Build Status](https://travis-ci.org/coreone/puppet-docker_toolbox.png)](https://travis-ci.org/coreone/puppet-docker_toolbox)
 
 ## Usage
 
