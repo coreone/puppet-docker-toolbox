@@ -1,0 +1,14 @@
+sudo: false
+language: ruby
+cache: bundler
+env:
+  matrix:
+  - BUNDLE_PATH=.bundle
+  global:
+    secure: 0BGgHzDT+6X/rlMsEyAIUq6rjx4DhT1d4UU94D9OY9ZAs4hXdAgWjQ6m8380mei59pSnlZ8TFZqCfZqacsp0X6YLe1sCaepEU4/+U7ChF9pXWSQKigMLcU1HIN5H8Edcv7X/iIdRnLGnHr+w7Ulc7Lmsy3+mFkBM/onBd/jsTZb+Oz+KVv5PufKi79IkrE2Knrv1FJsNEtwjzi32bhrBa5xxfdn1sizoLNrkOPZ6FMTZyTcFZQZlhqVJLNHrjHXnJA6cdwto7ds9lba5pNEq7lcl06yFqGECxiSO1OKEnnPajeUJVmoVyNZsf3qbrjdR1K9KyN6lzHrS/8Uq4td8A4OJxM4xItKqqeA7lkXqyBJEHvKTDers30rWJC4GZL3indw3SmOfKu+aGRjB9aeae0F1cSx1LtlkQJHxOBZvlSVfA/RznhjVQXAaG01XRjtVS/lDrLtSMVcgMsDhnwY9tdctFdPcnqgNnwHgf32IZ8zYib7IuRVTifr9IYWd5i2nKK0vndeC7FY6QWrH21cS1xG8Mjly8ME+Gozzs9l7EItmwl1pW/lJ4s1xn/WVJaKTnQL2sVEXFOEvCBys3qhk4qLr/CM4Z7O8kXZ6T8xGzguXbHIaQSaE8o11ownniQBdQftsQ8upY4BPu+Vxx7LV6dmbH2OYTKKcbs2cSoNI1Fg=
+script: ./script/cibuild
+gemfile: this/does/not/exist
+rvm:
+- 1.9.3
+- 2.0.0
+- 2.1.2
