@@ -14,5 +14,4 @@ class docker_toolbox(
         provider => 'pkgdmg',
         source   => "https://github.com/docker/toolbox/releases/download/v${version}/DockerToolbox-${version}.pkg",
     }
-
 }
